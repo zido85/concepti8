@@ -129,17 +129,19 @@ font-size: 2rem;
 
 }
 .content> div:before{
+   
     content: "";
     position: absolute;
-    width: 200%;
+    width: 960px;
     height: 350px;
     background: #FFF;
-    transform: rotate(
+    transform: rotate( 
 333deg
-);
-    left: -50%;
-    top: 40%;
+ );
+    left: -300px;
+    top: 303px;
     z-index: 0;
+
 }
 .content >div img{
     position: relative;
